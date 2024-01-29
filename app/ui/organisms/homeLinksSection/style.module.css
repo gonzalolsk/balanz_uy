@@ -1,0 +1,7 @@
+@media(max-width:992px){
+    .homeLinksSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+}

@@ -1,0 +1,92 @@
+button{
+	border-radius: 15px !important;
+	transition: all 0.5s;
+}
+button:hover{
+	opacity: 0.75;
+}
+button[disabled]:disabled{
+	background-color:var(--gery-color-50)
+}
+
+
+button.big-btn{
+	padding:10px 30px;
+}
+
+button.small-btn{
+	padding:5px 20px;
+	
+}
+button.submit-btn{
+	padding:0px 25px;
+	width: fit-content;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	
+}
+button.cookie-btn{
+	padding:5px 19px;
+	font-size: 0.8rem;
+}
+
+@media(max-width:319px){
+	button.cookie-btn{
+		padding:3px 15px;
+		font-size: 0.6rem;
+	}
+}
+
+
+button.long-btn{
+	padding:10px 40px;
+	width: fit-content;
+	min-width:200px;
+}
+button.strong{
+	font-weight: 900;
+}
+button.bold{
+	font-weight: 700;
+}
+
+button.white-btn{
+	background-color:white;
+	border:1px solid var(--primary-color);
+	color: var(--primary-color)
+}
+
+button.ligth-blue-btn{
+	background-color:var(--secondary-color);
+	border: 2px solid var(--secondary-color);
+	color: var(--white-color)
+}
+button.blue-btn{
+	background-color:var(--primary-color);
+	border: 2px solid var(--primary-color);
+	color: var(--white-color)
+}
+
+button.dark-btn{
+	background-color:var(--primary-color);
+	color: white;
+}
+button.border-blue{
+	border:1px solid var(--secondary-color);
+	color: var(--secondary-color);
+	background-color: transparent;
+	font-weight:600;
+}
+
+.hover-btn:hover{
+	background-color: transparent;
+	color: #0197d6;
+	border: #0197d6 2px solid;
+}
+
+.hover-btn2:hover{
+	background-color: #0197d6;
+	color:  white;
+	border: #0197d6 2px solid;
+}
+
